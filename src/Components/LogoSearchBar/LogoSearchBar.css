@@ -1,0 +1,88 @@
+.search-container {
+    background-color: #e8edf4;
+    /* background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\Fa14.jpg');
+     */
+     background-image: "src/Components/Farmer/images\Fa14.jpg";
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image in the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    border-radius: 5px;
+    padding: 100px; /* Increase padding for more space */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    height: 50vh; /* Set the height to fill the viewport (adjust as needed) */
+}
+
+
+.search-bar {
+    background-color: #ffffff !important; /* Ensure background remains white */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.search-bar:focus {
+    background-color: #ffffff !important; /* Keep the background white when focused */
+    outline: none !important; /* Remove the default outline */
+    border-color: #07bc0c !important; /* Optional: Change border color on focus */
+}
+
+.search-button {
+    background-color: #07bc0c;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.account-button {
+    background-color: #ffffff;
+    color: #07bc0c;
+    border: 1px solid #07bc0c;
+    height: 45px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.account-button:hover {
+    background-color:#07bc0c ;
+    color: #f0f0f0;
+    border-color: #07bc0c;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: #ffffff;
+    color: #07bc0c;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    top: 100%; /* Position below the button */
+    right: 0;
+    margin-top: 10px;
+    z-index: 1000;
+    width: max-content; /* Adjust width to fit content */
+    min-width: 200px; /* Ensure a minimum width for readability */
+    max-width: 100vw; /* Prevent the menu from extending beyond the viewport */
+}
+
+.dropdown-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #07bc0c;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}

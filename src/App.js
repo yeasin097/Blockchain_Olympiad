@@ -21,6 +21,17 @@ import Product_buy_history from './Components/Farmer/Product_buy_history';
 import Login from './Components/LoginSignup/Login';
 import Register from './Components/LoginSignup/Register';
 
+import Inspectors from './Pages/Inspector/Inspectors';
+import AccountDetailsI from './Pages/Inspector/AccountDetailsI';
+import ProductForInspectionI from './Pages/Inspector/ProductForInspectionI';
+import InspectedProductDetailsI from './Pages/Inspector/InspectedProductDetailsI';
+import InspectedProductDetails2I from './Pages/Inspector/InspectedProductDetails2I';
+import AddProductToInspectionI from './Pages/Inspector/AddProductToInspectionI';
+import Admin from './Pages/Admin/admin';
+import Orders from "D:/Blockchain/Blockchain_Olympiad/src/Components/Admin/Pages/Orders";
+import Customers from "D:/Blockchain/Blockchain_Olympiad/src/Components/Admin/Pages/Customers";
+import Products from "D:/Blockchain/Blockchain_Olympiad/src/Components/Admin/Pages/Products";
+
 function App() {
   return (
     <BrowserRouter>
@@ -45,6 +56,17 @@ function App() {
             <Route path="/Product_buy_history" element={<Product_buy_history/>} />
 	    <Route path="/login" element={<Login />} />
           	<Route path="/register" element={<Register />} />
+	    <Route path="/inspector" element={<Inspectors />} />
+        
+            <Route path="/accountdetails_I" element={<AccountDetailsI />} />
+            <Route path="/productforinspection_I" element={<ProductForInspectionI/>}/>
+            <Route path="/inspectedproductdetails_I" element={<InspectedProductDetailsI />} />
+            <Route path="/inspectedproductdetails2_I" element={<InspectedProductDetails2I />} />
+            <Route path="/addproducttoinspection_I" element={<AddProductToInspectionI/>} />
+            <Route path="/admin" element={<Admin/>} />
+            <Route path="/orders" element={<Orders/>}/>
+            <Route path="/customers" element={<Customers/>}/>
+            <Route path="/products" element={<Products/>}/>
 
         </Routes>
     </BrowserRouter>

@@ -1,7 +1,17 @@
-*{
-  font-family: 'Poppins', sans-serif;
-  font-style: italic;
-}
-.bg-brand{
-  background-color: #f7f7f7;
-}
+/* Define a class for the button */
+.main-btn {
+    background-color: #47d25c; /* bg-green-500 */
+    color: #ffffff; /* text-white */
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: background-color 0.3s ease; /* transition */
+    border-color: black;
+    border-radius: 50;
+  }
+  
+  /* Define a hover state for the button */
+  .main-btn:hover {
+    background-color: #3fe68d; /* hover:bg-green-600 */
+  }
+  
